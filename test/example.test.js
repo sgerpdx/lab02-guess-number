@@ -1,6 +1,6 @@
 
 
-import { guessEval } from './utils.js';
+import { guessEval } from '../domUtils.js';
 
 const test = QUnit.test;
 
