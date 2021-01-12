@@ -15,12 +15,20 @@ This app will generate a random integer between 0 and 20 and prompt the user to 
 ## Functionality:
 
 * grab DOM elements for relevent HTML, using IDs
+    - log to console to validate
 * initialize states:
     - random #
+        - log to console to validate
     - guesses remaining (start at 4)
+        - log to console to validate
 * add a function to evaluate the user input compared to the random #, and export for the Event Listener
+    - log to console to validate
+    - test this function 
 * add Event Listener for:
     - guess button:
         - on click: initialize states, call function
+        - log to console to validate
     - reset button:
         - on click, re-initialize states
+        - log to console to validate
+
