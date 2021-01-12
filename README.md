@@ -8,7 +8,7 @@ This app will generate a random integer between 0 and 20 and prompt the user to 
 
 * number input
 * button to submit guess
-* button to play again
+* button to play again (STRETCH goal)
 * span to display remaining guesses
 * span for feedback (too high/too low/congrats/sorry)
 
