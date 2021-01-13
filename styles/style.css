@@ -61,6 +61,17 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    color: red;
+    width: 360px;
+}
+
+.directions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orange;
 }
 
 .number-selector {
@@ -70,11 +81,22 @@ footer {
     align-items: center;
 }
 
+#guess-button {
+    background-color: gold;
+}
+
 .eval {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: greenyellow;
+}
+
+#play-again {
+    background-color: forestgreen;
+    color: white;
+    display: none;
 }
 
 
