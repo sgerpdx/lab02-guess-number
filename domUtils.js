@@ -9,3 +9,8 @@ export function guessEval(input, target) {
     } else
         return 0;
 }
+
+
+export function buttonOff() {
+    return document.getElementById('guess-button').disabled = true;
+}
